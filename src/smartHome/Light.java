@@ -1,6 +1,6 @@
 package smartHome;
 
-public class Light {
+public class Light{
     public void turnOn(){
         System.out.println("[Light] Light turned on.");
     }

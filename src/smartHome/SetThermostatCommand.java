@@ -1,6 +1,6 @@
 package smartHome;
 
-public class SetThermostatCommand {
+public class SetThermostatCommand implements Command {
     private final Thermostat thermostat;
     private final int temperature;
 

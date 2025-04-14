@@ -1,7 +1,7 @@
 package smartHome;
 
-public class TurnOnLightCommand {
-    private Light light;
+public class TurnOnLightCommand implements Command {
+    private final Light light;
 
     public TurnOnLightCommand(Light light) {
         this.light = light;
